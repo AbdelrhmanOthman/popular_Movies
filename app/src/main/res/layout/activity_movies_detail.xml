@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoviesDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/TextClor"
+                android:textSize="20sp"
+                android:layout_margin="15dp"
+                android:text="name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:text="name"
+                android:layout_margin="15dp"
+                android:textColor="@color/TextClor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"/>
+
+            <TextView
+                android:textSize="15sp"
+                android:text="name"
+                android:layout_margin="15dp"
+                android:textColor="@color/TextClor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rating"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/im"
+            android:scaleType="fitXY"
+            android:layout_width="200dp"
+            android:layout_height="250dp" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/over_view"/>
+</LinearLayout>
+</ScrollView>

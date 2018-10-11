@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Popular_Movies</string>
+    <string name="SortType">Sort Movies</string>
+    <string name="DialogTitle">Choose your pest</string>
+    <string name="DialogSave">Save</string>
+    <string name="DialogCancel">Cancel</string>
+
+    <string-array name="Sort_types">
+        <item>Most popular Movies</item>
+        <item>Highest rated Movies</item>
+    </string-array>
+</resources>
